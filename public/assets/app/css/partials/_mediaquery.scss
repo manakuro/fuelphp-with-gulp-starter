@@ -1,0 +1,26 @@
+// Mobile
+@include respond-to(s) {
+
+    /* hide for mobile */
+    .mobile-hide {
+        display: none !important;
+    }
+}
+
+// Table
+@include respond-to(m-l) {
+
+    /* hide for tablet */
+    .medium-hide {
+        display: none !important;
+    }
+}
+
+// Desktop 
+@include respond-to(l-xl) {
+
+    /* hide for desktop */
+    .large-hide {
+        display: none !important;
+    }
+}
